@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pd-y {
+    margin-top: 50px;
+}
+
+
+/*navbar section*/
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-items .navbar-img {
+    width: 13%;
+    float: left;
+}
+
+.navbar-items .navbar-img img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar-items .navbar-ul {
+    width: 87%;
+    float: left;
+}
+
+.navbar-items .navbar-ul ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navbar-items .navbar-ul ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navbar-items .navbar-ul ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 3px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-items .navbar-ul ul li a:hover {
+    color: #ffde00;
+}
+
+
+/*home section*/
+
+.home .home-img {
+    background-image: url(../images/blog/blog-header.png);
+    height: 70vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.home-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-content-h2 {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-content-p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.left-container {
+    width: 70%;
+    float: left;
+}
+
+.right-container {
+    width: 30%;
+    float: left;
+    border-left: 1px solid #e1e1e1;
+    display: table-cell;
+    padding-left: 30px;
+}
+
+.content-item .content-h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+.content-h2:hover {
+    color: #ffde00;
+    cursor: pointer;
+}
+
+.content-item img {
+    width: 95%;
+}
+
+.content-item-details {
+    padding: 20px 10px 20px 0;
+}
+
+.content-item-details span i {
+    color: #f1d204;
+}
+
+.content-item-details span {
+    font-size: 14px;
+    color: #888
+}
+
+.content-item-details .sp {
+    margin-left: 15px;
+}
+
+.content-item-details .sp a {
+    text-decoration: none;
+    color: #888;
+}
+
+.content-item-details .first-span {
+    color: #f1d204;
+}
+
+.content-item p {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 1px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: #ffde00;
+    transition: background-color 0.5s;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background-color: #6f61bd;
+}
+
+.right-container input {
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid #d7d7d7;
+    color: #8c9597;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.right-container form i {
+    position: absolute;
+    right: 16%;
+    line-height: 35px;
+    color: #888;
+}
+
+.right-container input:hover {
+    border: #333 solid 1px;
+}
+
+.right-container .recent-post {
+    margin-top: 70px;
+    text-transform: capitalize;
+}
+
+.right-container .recent-post h1 {
+    font-size: 22px;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.right-container .recent-post p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #888;
+    margin-top: 30px;
+}
+
+.recent-comment {
+    margin-top: 80px;
+}
+
+.right-container .recent-comment h1 {
+    font-size: 22px;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.right-container .recent-comment p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.right-container .recent-comment p span {
+    color: #f1d204;
+    transition: color 0.5s;
+}
+
+.right-container .recent-comment p span:hover {
+    color: #6f61bd;
+    cursor: pointer;
+}
+
+.right-container .archive {
+    margin-top: 70px;
+}
+
+.right-container .archive h1 {
+    font-size: 22px;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.right-container .archive p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.right-container .archive p:hover {
+    color: #6f61bd;
+    cursor: pointer;
+}
+
+.right-container .cat {
+    margin-top: 70px;
+}
+
+.right-container .cat h1 {
+    font-size: 22px;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.right-container .cat p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.right-container .cat p:hover {
+    color: #6f61bd;
+    cursor: pointer;
+}
+
+.right-container .meta {
+    margin-top: 70px;
+}
+
+.right-container .meta h1 {
+    font-size: 22px;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.right-container .meta p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.right-container .meta p:hover {
+    color: #6f61bd;
+    cursor: pointer;
+}
+
+
+/*footer section*/
+
+.footer {
+    background-color: #292929;
+}
+
+.footer-item {
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.footer-ul ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-ul ul a {
+    color: #c1bfbf;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-ul ul a:hover {
+    color: #6a4d8a;
+}
+
+.footer-ul ul li {
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-copy-right {
+    background-color: #201e1e;
+    text-align: center;
+    height: 80px;
+}
+
+.footer-1 {
+    color: #8c9597;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.footer-2 {
+    color: #fff;
+}
